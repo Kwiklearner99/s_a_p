@@ -55,3 +55,7 @@ class Home(models.Model):
     description = models.TextField()
     technology = models.CharField(max_length=20)
     image = models.CharField(max_length=100)
+
+
+class DemoModel(models.Model):
+    demo_field = models.CharField(max_length=50)
